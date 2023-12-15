@@ -1,0 +1,58 @@
+@import "variables";
+
+body {
+    background-color: @backgroundColor;
+    font-family: @mainFont;
+    color: @textColor;
+
+    h1 {
+        font-family: @titleFont;
+        font-weight: bold;
+        font-size: 3em;
+    }
+
+    main {
+        max-width: 960px;
+        margin: 0 auto;
+        font-size: 2em;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+button {
+    padding: 16px;
+    font-size: 1.3em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 16px;
+    background-color: @buttonColor;
+    color: @buttonTextColor;
+    font-family: @mainFont;
+}
+
+input {
+    display: block;
+    margin: 16px auto 0;
+    font-size: 2em;
+    max-width: 120px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    color: @whiteColor;
+    border-bottom: 6px solid @whiteColor;
+}
+
+.resultado {
+    padding: 16px;
+    margin-top: 120px;
+    border: 8px dotted @whiteColor;
+    display: none;
+
+    span {
+        font-weight: bold;
+        font-size: 3em;
+        display: block;
+    }
+}
