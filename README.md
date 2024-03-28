@@ -2,7 +2,6 @@
 
 <img src="./assets/sorteador.png">
 
-
 Sorteia um número no intervalo entre 1 e o número informado pelo usuário.
 
 Projeto desenvolvido em **HTML** e **CSS**, **JavaScript** com **LESS** e aplicação de diversos plugins do **Grunt**
@@ -38,7 +37,7 @@ Siga estas etapas a seguir para configurar o ambiente de desenvolvimento:
 2. Navegue até o diretório clonado.
 3. Instale a extensão [Live Server] no VSCode.
 4. Clique em "Go Live" no canto inferior direito do VSCode para executar o projeto.
-3. Execute o seguinte comando para instalar as dependências:
+5. Execute o seguinte comando para instalar as dependências:
 
   **``npm install``**
 
