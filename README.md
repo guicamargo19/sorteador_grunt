@@ -1,9 +1,12 @@
 # Número da Sorte
 
-Sorteia um número entre 1 e o número máximo informado pelo usuário.
+<img src="./assets/sorteador.png">
 
-Projeto em **HTML** e **CSS**, **JavaScript** com **LESS** e aplicação de diversos plugins do **Grunt** para minificação de 
-HTML, CSS e JavaScript para uso em ambiente de desenvolvimento e de produção.
+
+Sorteia um número no intervalo entre 1 e o número informado pelo usuário.
+
+Projeto desenvolvido em **HTML** e **CSS**, **JavaScript** com **LESS** e aplicação de diversos plugins do **Grunt**
+para minificação de arquivos HTML, CSS e JS para o ambiente de produção.
 
 - ``grunt-contrib-less``
 - ``grunt-contrib-uglify``
@@ -18,28 +21,28 @@ Projeto desenvolvido no curso de Full Stack Python da EBAC - Escola Britânica d
 
 Estas instruções permitirão que você obtenha uma cópia do projeto em execução em sua máquina local para fins de desenvolvimento e teste.
 
-### Pré-requisitos
+## Pré-requisitos
 
 Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 
 - **Node.js**
 - **npm (geralmente vem com o Node.js)**
+- [VSCode](https://code.visualstudio.com/)
+- [Live Server](https://github.com/ritwickdey/vscode-live-server-plus-plus)
 
-### Instalação
+## Instalação
 
 Siga estas etapas a seguir para configurar o ambiente de desenvolvimento:
 
 1. Clone este repositório em sua máquina local.
 2. Navegue até o diretório clonado.
+3. Instale a extensão [Live Server] no VSCode.
+4. Clique em "Go Live" no canto inferior direito do VSCode para executar o projeto.
 3. Execute o seguinte comando para instalar as dependências:
 
   **``npm install``**
 
-### Executar o projeto
-
-Para executar o projeto, execute o comando:
-
-   **``npm start``**
+## Executar o projeto
 
 No arquivo package.json, em scripts, pode-se definir o comando desejado para o ambiente de produção
 e de desenvolvimento, como por exemplo:
@@ -49,12 +52,17 @@ e de desenvolvimento, como por exemplo:
         "build": "grunt build",
     }
 
-Durante o desenvolvimento, basta executar os comandos:
+Para o ambiente de desenvolvimento, basta executar os comandos:
 
 **``npm run grunt``**
-**``**npm run build``**
 
-## 🛠️Ferramentas utilizadas para construção do projeto
+Para o ambiente de produção, executar o comando:
+
+**``npm run build``**
+
+A pasta "dev" será criada com o projeto minificado.
+
+## 🛠️ Ferramentas utilizadas para construção do projeto
 
 * **HTML** - Linguagem de marcação utilizada na construção de páginas na Web.
 * **CSS** - Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web.
