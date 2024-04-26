@@ -2,7 +2,7 @@
 
 ## Apresentação do projeto
 
-
+https://github.com/guicamargo19/sorteador_grunt/assets/133445061/6dd747aa-e924-489c-b765-62b86c69b20e
 
 Sorteia um número no intervalo entre 1 e o número informado pelo usuário.
 
