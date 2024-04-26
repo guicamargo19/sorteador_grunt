@@ -1,6 +1,8 @@
 # Número da Sorte
 
-<img src="./assets/sorteador.png">
+## Apresentação do projeto
+
+
 
 Sorteia um número no intervalo entre 1 e o número informado pelo usuário.
 

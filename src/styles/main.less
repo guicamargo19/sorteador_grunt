@@ -8,20 +8,20 @@ body {
     h1 {
         font-family: @titleFont;
         font-weight: bold;
-        font-size: 3em;
+        font-size: 2.2em;
     }
 
     main {
-        max-width: 960px;
+        max-width: 700px;
         margin: 0 auto;
-        font-size: 2em;
+        font-size: 1.7em;
         text-align: center;
         width: 100%;
     }
 }
 
 button {
-    padding: 16px;
+    padding: 14px;
     font-size: 1.3em;
     font-weight: bold;
     cursor: pointer;
@@ -30,6 +30,12 @@ button {
     background-color: @buttonColor;
     color: @buttonTextColor;
     font-family: @mainFont;
+    transition: all ease-in-out .2s;
+}
+
+button:hover {
+    background-color: lighten(@buttonColor, 10%);
+    transition: all ease-in-out .2s;
 }
 
 input {
@@ -45,9 +51,26 @@ input {
     border-bottom: 6px solid @whiteColor;
 }
 
+.direitos {
+    text-align: center;
+    padding-top: 40px;
+
+    a {
+        text-decoration: none;
+        color: @whiteColor;
+        transition: all ease-in-out .2s;
+
+        &:hover {
+            text-decoration: none;
+            color: @buttonColor;
+            transition: all ease-in-out .2s;
+        }
+    }
+}
+
 .resultado {
     padding: 16px;
-    margin-top: 120px;
+    margin-top: 80px;
     border: 8px dotted @whiteColor;
     display: none;
 
@@ -55,6 +78,7 @@ input {
         font-weight: bold;
         font-size: 3em;
         display: block;
+        color: @buttonColor;;
     }
 }
 
